@@ -35,7 +35,8 @@ def find_winner(row):
     output:
     row: Pandas series with a newly added cell "winner" containing the index (party name) of the largest cell (most votes).
     '''
-    row["winner"]=row[2:22].astype("int64").idxmax()
+    row["winner"]=None
+    row["winner"]=row[2:22].idxmax()
     return row
 
 def code_extract(row, code, city_code, area):
