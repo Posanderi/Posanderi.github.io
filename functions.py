@@ -9,21 +9,21 @@ def party_cmap(party):
     output: Color name as a string
     '''
     if party=="SDP":
-        return "red"
+        return "#ff0000"
     elif party=="PS":
-        return "turquoise"
+        return "#42f0d6"
     elif party=="KOK":
-        return "blue"
+        return "#004bd6"
     elif party=="KESK":
-        return "darkgreen"
+        return "#30af1d"
     elif party=="VIHR":
-        return "lime"
+        return "#58fd3f"
     elif party=="VAS":
-        return "darkred"
+        return "#b60205"
     elif party=="RKP":
-        return "yellow"
+        return "#fdf926"
     else:
-        return "slategrey"
+        return "#a1a1a1"
         
 def find_winner(row):
     '''
