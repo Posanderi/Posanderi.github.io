@@ -22,6 +22,10 @@ def party_cmap(party):
         return "#b60205"
     elif party=="RKP":
         return "#fdf926"
+    elif party=="KD"
+        return "#cb45fc"
+    elif party=="SIN"
+        return "#45dbfc"
     else:
         return "#a1a1a1"
         
